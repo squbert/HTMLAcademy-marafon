@@ -1,0 +1,181 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #533738;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.button {
+  padding: 25px 66px 24px 68px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #533738;
+  background-color: #CC8B86;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+  background-color: #EFE6E4;
+}
+
+.page-header a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #533738;
+}
+
+.phone {
+  font-size: 18px;
+  line-height: 30px;
+  color: #533738;
+}
+
+/* Promo */
+.promo-text {
+  font-size: 50px;
+  line-height: 62px;
+}
+
+.our-skill {
+  font-size: 50px;
+  line-height: 62px;
+  background-color: #8D7370;
+  color: #fff;
+}
+
+.our-skill span {
+font-size: 50px;
+line-height: 62px;
+}
+
+/* our-work */
+.our-work-list {
+  color: #fff;
+}
+
+.our-work-text {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.our-work-list li:first-child {
+  background: linear-gradient(to left,rgba(100, 72, 69, 0.8),rgba(100, 72, 69, 0.8)), url('../img/our-work/first_img.jpg') center center no-repeat;
+}
+
+.our-work-link {
+  position: relative;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  color: #533738;
+}
+
+.our-work-link::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 61px;
+  height: 16px;
+  right: -65px;
+  top: 35%;
+  background-image: url('../img/our-work/Arrow.svg');
+}
+
+/* team */
+.team-container {
+  background-color: #E2C4BA;
+}
+
+/* how-work */
+.work-number {
+  width: 70px;
+  height: 70px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  background-color: #8D7370;
+  border-radius: 50%;
+}
+
+/* reviews */
+cite {
+  font-size: 18px;
+  line-height: 30px;
+  font-style: normal;
+}
+
+.reviews-button {
+  width: 72px;
+  height: 72px;
+  background-color: #CC8B86;
+  border-radius: 50%;
+}
+
+/* request */
+.request-conteiner {
+  background-color: #8D7370;
+}
+
+.request-title {
+  color: #fff;
+}
+
+.request-description {
+  color: #fff;
+}
